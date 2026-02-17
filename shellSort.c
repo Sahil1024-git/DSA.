@@ -16,7 +16,7 @@ void shellSort(int a[], int n) {
                     a[i + gap] = temp;
                 } else {
                     // If no swap is needed, this "sub-list" is sorted
-                    break; 
+                    break;      
                 }
             }
         }
@@ -42,5 +42,6 @@ int main(){
     }printf("\n");
 
     return 0;
+
 
 }
