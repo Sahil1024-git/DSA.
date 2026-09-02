@@ -32,7 +32,7 @@ class Solution {
         //     }   
         // }
         for (int i = 1; i <= n; i++) {
-            // Arrays.binarySearch returns < 0 if 'i' is NOT found
+            // Arrays.binarySearch returns < 0 if 'i' is NOT found else returns the index.
             if (Arrays.binarySearch(nums, i) < 0) {
                 newArr.add(i);
             }
