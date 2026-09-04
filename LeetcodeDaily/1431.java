@@ -10,12 +10,6 @@ class Solution {
                 maxCandies = candy;
             }
         }
-
-
-
-
-
-        
         // Step 2: Create the result list and compare each kid's potential
         List<Boolean> result = new ArrayList<>();
         for (int candy : candies) {
