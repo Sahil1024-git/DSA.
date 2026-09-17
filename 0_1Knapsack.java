@@ -18,6 +18,7 @@ public class CTJ13069 {
 
         for(int i = 0; i < n; i++)
             q[i] = input.nextInt();
+        
       
         for(int i = 0; i <= n; i++) k[i][0] = 0;
         for(int j = 0; j <= w; j++) k[0][j] = 0;
