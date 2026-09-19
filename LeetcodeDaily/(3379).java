@@ -11,9 +11,6 @@ class Solution {
             }
 
             ans[i] = nums[index];
-
-
-            
         }
 
         return ans;
