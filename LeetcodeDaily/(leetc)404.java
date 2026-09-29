@@ -12,6 +12,9 @@ class Solution {
             root.left.right == null) {
             
             sum += root.left.val;
+
+
+            
         }
 
         // Recursively check left and right subtrees
