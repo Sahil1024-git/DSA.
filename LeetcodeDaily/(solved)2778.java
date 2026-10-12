@@ -1,4 +1,4 @@
-
+//Solved
 class Solution {
     public int sumOfSquares(int[] nums) {
         int sum = 0, n = nums.length;
