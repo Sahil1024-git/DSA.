@@ -8,6 +8,11 @@ class Solution {
 
             if (index < 0) {
                 index += n;
+
+
+
+
+                
             }
 
             ans[i] = nums[index];
